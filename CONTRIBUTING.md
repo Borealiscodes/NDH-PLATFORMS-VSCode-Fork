@@ -1,99 +1,212 @@
-# Contributing to VS Code
+# **CONTRIBUTING.md**  
+### *Guidelines for Contributing to the NDH‑PLATFORMS‑VSCode‑Fork Experimental Platform*
 
-Welcome, and thank you for your interest in contributing to VS Code!
+---
 
-There are several ways in which you can contribute, beyond writing code. The goal of this document is to provide a high-level overview of how you can get involved.
+## **🌱 Overview**
 
-## Asking Questions
+The **NDH‑PLATFORMS‑VSCode‑Fork** is the experimental layer of the NDH ecosystem.  
+It is designed for:
 
+- prototyping **NDH primitives**  
+- running **GBS transformation experiments**  
+- observing **holonomy behavior**  
+- developing **trauma‑informed UX**  
+- building **NDH extensions**  
+- generating **White Paper staging artifacts**  
+- supporting the **snek + dragon expressive ecosystem**
 
-Have a question? Instead of opening an issue, please ask on [Stack Overflow](https://stackoverflow.com/questions/tagged/visual-studio-code) using the tag `visual-studio-code`.
+Contributions must respect the platform’s experimental nature and its architectural boundaries.
 
-The active community will be eager to assist you. Your well-worded question will serve as a resource to others searching for help.
+---
 
-## Providing Feedback
+## **🧭 Contribution Principles**
 
-Your comments and feedback are welcome, and the development team is available via a handful of different channels.
+All contributions must follow these core NDH principles:
 
-See the [Feedback Channels](https://github.com/microsoft/vscode/wiki/Feedback-Channels) wiki page for details on how to share your thoughts.
+- **Holonomy first** — maintain coherence, avoid drift.  
+- **Non‑dual workflows** — avoid binary logic; use gradients.  
+- **Trauma‑informed UX** — dignity constraints always apply.  
+- **No domain absorption** — keep experimental work inside the fork.  
+- **Expressive clarity** — dragons and sneks are cultural tools, not specs.  
+- **Canonical protection** — nothing migrates to NDH‑PLATFORMS without review.
 
-## Reporting Issues
+---
 
-Have you identified a reproducible problem in VS Code? Do you have a feature request? We want to hear about it! Here's how you can report your issue as effectively as possible.
+## **🧱 Repository Structure**
 
-### Identify Where to Report
+Contributions must respect the platform’s layered architecture:
 
-The VS Code project is distributed across multiple repositories. Try to file the issue against the correct repository. Check the list of [Related Projects](https://github.com/microsoft/vscode/wiki/Related-Projects) if you aren't sure which repo is correct.
+- **NDH primitives** → `ndh-primitives/`  
+- **GBS experiments** → `gbs-experiments/`  
+- **Holonomy governance** → `docs/governance/`  
+- **Trauma‑informed UX** → `ux-trauma-informed/`  
+- **NDH extensions** → `extensions-ndh/`  
+- **Expressive manifold** → `docs/expressive/`  
+- **White Paper staging** → `docs/white-paper/`
 
-Can you recreate the issue even after [disabling all extensions](https://code.visualstudio.com/docs/editor/extension-gallery#_disable-an-extension)? If you find the issue is caused by an extension you have installed, please file an issue on the extension's repo directly.
+Each layer has strict boundaries to prevent domain collapse.
 
-### Look For an Existing Issue
+---
 
-Before you create a new issue, please do a search in [open issues](https://github.com/microsoft/vscode/issues) to see if the issue or feature request has already been filed.
+## **🧪 How to Contribute Experiments**
 
-Be sure to scan through the [most popular](https://github.com/microsoft/vscode/issues?q=is%3Aopen+is%3Aissue+label%3Afeature-request+sort%3Areactions-%2B1-desc) feature requests.
+### **1. NDH Primitive Prototypes**
+Place new NDH constructs in:
 
-If you find your issue already exists, make relevant comments and add your [reaction](https://github.com/blog/2119-add-reactions-to-pull-requests-issues-and-comments). Use a reaction in place of a "+1" comment:
+```
+ndh-primitives/
+```
 
-* 👍 - upvote
-* 👎 - downvote
+Include:
 
-If you cannot find an existing issue that describes your bug or feature, create a new issue using the guidelines below.
+- a short description  
+- expected holonomy impact  
+- transformation intent  
+- any trauma‑informed considerations  
 
-### Writing Good Bug Reports and Feature Requests
+---
 
-File a single issue per problem and feature request. Do not enumerate multiple bugs or feature requests in the same issue.
+### **2. GBS Transformation Experiments**
+Place GBS experiments in:
 
-Do not add your issue as a comment to an existing issue unless it's for the identical issue. Many issues look similar but have different causes.
+```
+gbs-experiments/
+```
 
-The more information you can provide, the more likely someone will be successful at reproducing the issue and finding a fix.
+Include:
 
-The built-in tool for reporting an issue, which you can access by using `Report Issue` in VS Code's Help menu, can help streamline this process by automatically providing the version of VS Code, all your installed extensions, and your system info. Additionally, the tool will search among existing issues to see if a similar issue already exists.
+- transformation map  
+- expected behavioral changes  
+- observed holonomy effects  
+- notes on coherence or drift  
 
-Please include the following with each issue:
+---
 
-* Version of VS Code
-* Your operating system
-* List of extensions that you have installed
-* Reproducible steps (1... 2... 3...) that cause the issue
-* What you expected to see, versus what you actually saw
-* Images, animations, or a link to a video showing the issue occurring
-* A code snippet that demonstrates the issue or a link to a code repository the developers can easily pull down to recreate the issue locally
-  * **Note:** Because the developers need to copy and paste the code snippet, including a code snippet as a media file (i.e. .gif) is not sufficient.
-* Errors from the Dev Tools Console (open from the menu: Help > Toggle Developer Tools)
+### **3. Holonomy Documentation**
+All contributions must include holonomy notes:
 
-### Creating Pull Requests
+- What changed?  
+- Did coherence increase or decrease?  
+- Did any domain boundaries blur?  
+- Did dragons or sneks react?  
 
-* Please refer to the article on [creating pull requests](https://github.com/microsoft/vscode/wiki/How-to-Contribute#pull-requests) and contributing to this project.
+Holonomy is the platform’s stability metric.
 
-### Final Checklist
+---
 
-Please remember to do the following:
+### **4. Trauma‑Informed UX Prototypes**
+Place UX prototypes in:
 
-* [ ] Search the issue repository to ensure your report is a new issue
-* [ ] Recreate the issue after disabling all extensions
-* [ ] Simplify your code around the issue to better isolate the problem
+```
+ux-trauma-informed/
+```
 
-Don't feel bad if the developers can't reproduce the issue right away. They will simply ask for more information!
+Include:
 
-### Follow Your Issue
+- dignity constraints  
+- interaction patterns  
+- non‑dual communication surfaces  
+- institutional alignment notes  
 
-Once submitted, your report will go into the [issue tracking](https://github.com/microsoft/vscode/wiki/Issue-Tracking) workflow. Be sure to understand what will happen next, so you know what to expect and how to continue to assist throughout the process.
+---
 
-## Automated Issue Management
+### **5. NDH Extensions**
+Place experimental extensions in:
 
-We use GitHub Actions to help us manage issues. These Actions and their descriptions can be [viewed here](https://github.com/microsoft/vscode-github-triage-actions). Some examples of what these Actions do are:
+```
+extensions-ndh/
+```
 
-* Automatically close any issue marked `info-needed` if there has been no response in the past 7 days.
-* Automatically lock issues 45 days after they are closed.
-* Automatically implement the VS Code [feature request pipeline](https://github.com/microsoft/vscode/wiki/Issues-Triaging#managing-feature-requests).
+Include:
 
-If you believe the bot got something wrong, please open a new issue and let us know.
+- extension purpose  
+- NDH primitive usage  
+- GBS integration  
+- holonomy behavior  
 
-## Contributing Fixes
+Extensions must remain experimental.
 
-If you are interested in writing code to fix issues, please see [How to Contribute](https://github.com/microsoft/vscode/wiki/How-to-Contribute) in the wiki.
+---
 
-## Thank You
+### **6. Expressive Documentation**
+Place expressive artifacts in:
 
-Your contributions to open source, large or small, make great projects like this possible. Thank you for taking the time to contribute.
+```
+docs/expressive/
+```
+
+Examples:
+
+- dragon manuals  
+- snek onboarding  
+- narrative metaphors  
+- cultural orientation docs  
+
+Expressive docs help contributors understand the platform’s identity.
+
+---
+
+### **7. White Paper Staging**
+Place staging artifacts in:
+
+```
+docs/white-paper/
+```
+
+Include:
+
+- case studies  
+- emergent behavior analyses  
+- NDH metaphors  
+- platform insights  
+
+Only stable insights migrate to NDH‑PLATFORMS canonical.
+
+---
+
+## **🛑 What Not to Do**
+
+- Do **not** copy canonical NDH logic into the fork.  
+- Do **not** store institutional TISD artifacts here.  
+- Do **not** collapse layers or mix domains.  
+- Do **not** treat experimental code as production.  
+- Do **not** bypass holonomy documentation.  
+
+This fork is intentionally **non‑canonical**.
+
+---
+
+## **📜 Commit Requirements**
+
+Every commit must include:
+
+- **layer identification**  
+- **purpose summary**  
+- **holonomy notes**  
+- **GBS or NDH relevance**  
+- **trauma‑informed considerations** (if applicable)  
+- **expressive notes** (if applicable)
+
+Example commit description:
+
+> “Add NDH primitive prototype exploring non‑dual invariant behavior.  
+> Includes holonomy analysis, GBS transformation notes, and UX dignity constraints.”
+
+---
+
+## **🌌 Contributor Identity Statement**
+
+> **Contributors to the NDH‑PLATFORMS‑VSCode‑Fork are explorers of emergent systems.  
+> You prototype boldly, respect holonomy, liberate sneks, train dragons,  
+> and preserve canonical NDH architecture.**
+
+---
+
+## **📦 Version**
+
+**CONTRIBUTING.md — v1.0**  
+Aligned with Platform‑Blueprint‑Suite‑v1.0.
+
+---
+
