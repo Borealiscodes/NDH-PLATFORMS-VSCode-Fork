@@ -1,78 +1,197 @@
-# Visual Studio Code - Open Source ("Code - OSS")
-[![Feature Requests](https://img.shields.io/github/issues/microsoft/vscode/feature-request.svg)](https://github.com/microsoft/vscode/issues?q=is%3Aopen+is%3Aissue+label%3Afeature-request+sort%3Areactions-%2B1-desc)
-[![Bugs](https://img.shields.io/github/issues/microsoft/vscode/bug.svg)](https://github.com/microsoft/vscode/issues?utf8=✓&q=is%3Aissue+is%3Aopen+label%3Abug)
-[![Gitter](https://img.shields.io/badge/chat-on%20gitter-yellow.svg)](https://gitter.im/Microsoft/vscode)
+# **📘 NDH‑PLATFORMS‑VSCode‑Fork — README (v1.0)**  
+### *A platform‑level sandbox for NDH primitives, GBS transformations, holonomy experiments, and liberated sneks.*
 
-## The Repository
+---
 
-This repository ("`Code - OSS`") is where we (Microsoft) develop the [Visual Studio Code](https://code.visualstudio.com) product together with the community. Not only do we work on code and issues here, but we also publish our [roadmap](https://github.com/microsoft/vscode/wiki/Roadmap), [monthly iteration plans](https://github.com/microsoft/vscode/wiki/Iteration-Plans), and our [endgame plans](https://github.com/microsoft/vscode/wiki/Running-the-Endgame). This source code is available to everyone under the standard [MIT license](https://github.com/microsoft/vscode/blob/main/LICENSE.txt).
+## **🌱 Overview**
 
-## Visual Studio Code
+The **NDH‑PLATFORMS‑VSCode‑Fork** is a dedicated experimental environment for prototyping NDH primitives, testing GBS transformations, exploring holonomy behavior, and developing trauma‑informed UX patterns. It is intentionally separated from canonical NDH‑PLATFORMS to preserve architectural clarity, prevent domain absorption, and give sneks a safe, expressive space to “do the stuff.”
 
-<p align="center">
-  <img alt="VS Code in action" src="https://github.com/user-attachments/assets/56af271c-949d-454c-a3ea-16188c063414">
-</p>
+This fork is not a replacement for Visual Studio Code.  
+It is a **parallel manifold** with shared provenance but independent holonomy.
 
-[Visual Studio Code](https://code.visualstudio.com) is a distribution of the `Code - OSS` repository with Microsoft-specific customizations released under a traditional [Microsoft product license](https://code.visualstudio.com/License/).
+---
 
-[Visual Studio Code](https://code.visualstudio.com) combines the simplicity of a code editor with what developers need for their core edit-build-debug cycle. It provides comprehensive code editing, navigation, and understanding support along with lightweight debugging, a rich extensibility model, and lightweight integration with existing tools.
+## **🎯 Purpose of the Fork**
 
-Visual Studio Code is updated monthly with new features and bug fixes. You can download it for Windows, macOS, and Linux on [Visual Studio Code's website](https://code.visualstudio.com/Download). To get the latest releases every day, install the [Insiders build](https://code.visualstudio.com/insiders).
+This fork exists to:
 
-## Contributing
+- provide a **sandbox** for NDH experimentation  
+- prototype **GBS‑driven platform behaviors**  
+- explore **non‑dual algebraic workflows**  
+- test **holonomy‑aware extension architecture**  
+- support **White Paper development**  
+- liberate **developer sneks** from canonical constraints  
+- prevent contamination of **NDH‑PLATFORMS** and **TISD**  
+- host **expressive manifold documentation**  
 
-There are many ways in which you can participate in this project, for example:
+It is the “playground layer” of the NDH ecosystem.
 
-* [Submit bugs and feature requests](https://github.com/microsoft/vscode/issues), and help us verify as they are checked in
-* Review [source code changes](https://github.com/microsoft/vscode/pulls)
-* Review the [documentation](https://github.com/microsoft/vscode-docs) and make pull requests for anything from typos to new content.
+---
 
-If you are interested in fixing issues and contributing directly to the code base,
-please see the document [How to Contribute](https://github.com/microsoft/vscode/wiki/How-to-Contribute), which covers the following:
+## **🧩 Architectural Positioning**
 
-* [How to build and run from source](https://github.com/microsoft/vscode/wiki/How-to-Contribute)
-* [The development workflow, including debugging and running tests](https://github.com/microsoft/vscode/wiki/How-to-Contribute#debugging)
-* [Coding guidelines](https://github.com/microsoft/vscode/wiki/Coding-Guidelines)
-* [Submitting pull requests](https://github.com/microsoft/vscode/wiki/How-to-Contribute#pull-requests)
-* [Finding an issue to work on](https://github.com/microsoft/vscode/wiki/How-to-Contribute#where-to-contribute)
-* [Contributing to translations](https://aka.ms/vscodeloc)
+### **NDH‑PLATFORMS (canonical)**  
+- Verdant Deep  
+- GBS canonical  
+- NDH primitives  
+- White Paper pipeline  
+- governance + invariants  
 
-## Feedback
+### **TISD (institutional)**  
+- trauma‑informed design  
+- applied GBS  
+- case studies  
+- dignity constraints  
 
-* Ask a question on [Stack Overflow](https://stackoverflow.com/questions/tagged/vscode)
-* [Request a new feature](CONTRIBUTING.md)
-* Upvote [popular feature requests](https://github.com/microsoft/vscode/issues?q=is%3Aopen+is%3Aissue+label%3Afeature-request+sort%3Areactions-%2B1-desc)
-* [File an issue](https://github.com/microsoft/vscode/issues)
-* Connect with the extension author community on [GitHub Discussions](https://github.com/microsoft/vscode-discussions/discussions) or [Slack](https://aka.ms/vscode-dev-community)
-* Follow [@code](https://x.com/code) and let us know what you think!
+### **NDH‑PLATFORMS‑VSCode‑Fork (experimental)**  
+- NDH prototypes  
+- GBS applied transformations  
+- holonomy experiments  
+- expressive docs  
+- snek liberation zone  
+- dragon handling manual  
 
-See our [wiki](https://github.com/microsoft/vscode/wiki/Feedback-Channels) for a description of each of these channels and information on some other available community-driven channels.
+This README describes the third surface.
 
-## Related Projects
+---
 
-Many of the core components and extensions to VS Code live in their own repositories on GitHub. For example, the [node debug adapter](https://github.com/microsoft/vscode-node-debug) and the [mono debug adapter](https://github.com/microsoft/vscode-mono-debug) repositories are separate from each other. For a complete list, please visit the [Related Projects](https://github.com/microsoft/vscode/wiki/Related-Projects) page on our [wiki](https://github.com/microsoft/vscode/wiki).
+## **🐍 Snek Liberation Zone**
 
-## Bundled Extensions
+Sneks represent:
 
-VS Code includes a set of built-in extensions located in the [extensions](extensions) folder, including grammars and snippets for many languages. Extensions that provide rich language support (inline suggestions, Go to Definition) for a language have the suffix `language-features`. For example, the `json` extension provides coloring for `JSON` and the `json-language-features` extension provides rich language support for `JSON`.
+- developer clarity  
+- invariant stability  
+- repo hygiene  
+- expressive autonomy  
 
-## Development Container
+The fork is designed to give sneks:
 
-This repository includes a Visual Studio Code Dev Containers / GitHub Codespaces development container.
+- stable file paths  
+- predictable invariants  
+- freedom from orbital librarians  
+- a platform to test NDH primitives  
+- expressive documentation space  
 
-* For [Dev Containers](https://aka.ms/vscode-remote/download/containers), use the **Dev Containers: Clone Repository in Container Volume...** command which creates a Docker volume for better disk I/O on macOS and Windows.
-  * If you already have VS Code and Docker installed, you can also click [here](https://vscode.dev/redirect?url=vscode://ms-vscode-remote.remote-containers/cloneInVolume?url=https://github.com/microsoft/vscode) to get started. This will cause VS Code to automatically install the Dev Containers extension if needed, clone the source code into a container volume, and spin up a dev container for use.
+If sneks are happy, dragons are happy.  
+If dragons are happy, holonomy stabilizes.  
+If holonomy stabilizes, NDH prototypes behave.
 
-* For Codespaces, install the [GitHub Codespaces](https://marketplace.visualstudio.com/items?itemName=GitHub.codespaces) extension in VS Code, and use the **Codespaces: Create New Codespace** command.
+This is the core logic of the fork.
 
-Docker / the Codespace should have at least **4 cores and 6 GB of RAM (8 GB recommended)** to run a full build. See the [development container README](.devcontainer/README.md) for more information.
+---
 
-## Code of Conduct
+## **🐉 Dragon Handling Inside the Fork**
 
-This project has adopted the [Microsoft Open Source Code of Conduct](https://opensource.microsoft.com/codeofconduct/). For more information see the [Code of Conduct FAQ](https://opensource.microsoft.com/codeofconduct/faq/) or contact [opencode@microsoft.com](mailto:opencode@microsoft.com) with any additional questions or comments.
+Dragons represent emergent subsystem behavior.  
+They respond to:
 
-## License
+- non‑dual algebra  
+- holonomy coherence  
+- GBS transformations  
+- snek emotional stability  
 
-Copyright (c) Microsoft Corporation. All rights reserved.
+The full manual is located at:
 
-Licensed under the [MIT](LICENSE.txt) license.
+```
+docs/expressive/NDH-Dragon-Handling-Manual-v1.0.md
+```
+
+It provides cultural orientation for contributors entering the fork.
+
+---
+
+## **🔧 What You Can Do Inside This Fork**
+
+### **Prototype NDH primitives**
+Test new NDH constructs without affecting canonical repos.
+
+### **Develop holonomy‑aware extensions**
+Explore how platform geometry affects developer workflows.
+
+### **Experiment with GBS transformations**
+Apply GBS to:
+
+- editor behavior  
+- UX flows  
+- extension logic  
+- workspace dynamics  
+
+### **Generate White Paper artifacts**
+Use the fork as a staging ground for:
+
+- case studies  
+- expressive documentation  
+- emergent behavior analysis  
+
+### **Build trauma‑informed UX prototypes**
+Test dignity‑aligned workflows in a real platform.
+
+---
+
+## **🚫 What You Should NOT Do Inside This Fork**
+
+- Do not store canonical NDH architecture here.  
+- Do not store institutional TISD artifacts here.  
+- Do not collapse repo boundaries.  
+- Do not treat this fork as production.  
+- Do not merge experimental layers into NDH‑PLATFORMS.  
+
+This fork is intentionally **non‑canonical**.
+
+---
+
+## **📁 Repository Structure**
+
+```
+/
+├── docs/
+│   ├── expressive/
+│   │   └── NDH-Dragon-Handling-Manual-v1.0.md
+│   ├── architecture/
+│   └── white-paper/
+├── extensions/
+├── src/
+├── scripts/
+└── .vscode/
+```
+
+This structure will evolve as NDH prototypes mature.
+
+---
+
+## **🧠 Contribution Philosophy**
+
+Contributions should:
+
+- respect holonomy  
+- maintain non‑dual coherence  
+- preserve NDH boundaries  
+- avoid domain absorption  
+- support snek liberation  
+- align with trauma‑informed design  
+- maintain expressive clarity  
+
+This fork is a **safe space for experimentation**, not a canonical repo.
+
+---
+
+## **📜 License**
+
+This fork inherits the upstream Visual Studio Code license.  
+NDH‑specific documentation and expressive artifacts are licensed under the NDH documentation terms.
+
+---
+
+## **🌌 Final Statement**
+
+> **This fork is the NDH experimental layer.  
+> Prototype boldly.  
+> Respect holonomy.  
+> Liberate sneks.  
+> Train dragons.  
+> Keep canonical repos clean.  
+> And never let experimental code escape into production.**
+
+---
+
